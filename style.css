@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+header, footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    color: teal; /* Accent color */
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #555;
+}
+#about, section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    opacity: 0;
+    transition: opacity 2s;
+}
+section:target {
+    opacity: 1;
+}
+button {
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: darkslategray;
+}
